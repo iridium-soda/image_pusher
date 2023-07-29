@@ -1,0 +1,50 @@
+{
+    "schemaVersion": 1,
+    "name": "iridium191/big_file_test",
+    "tag": "latest",
+    "architecture": "amd64",
+    "fsLayers": [
+        {
+            "blobSum": "sha256:50852ef3dae8f80fc77eb8dfe7d1068394b5ececce683da644f466a7ae79ae44"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:a3ed95caeb02ffe68cdd9fd84406680ae93d633cb16422d00e8a7c22955b46d4"
+        },
+        {
+            "blobSum": "sha256:3f4d90098f5b5a6f6a76e9d217da85aa39b2081e30fa1f7d287138d6e7bf0ad7"
+        }
+    ],
+    "history": [
+        {
+            "v1Compatibility": "{\"architecture\":\"amd64\",\"config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"sh\"],\"Image\":\"sha256:8d357da4b1b085d42f4bde0b48c13c2a605ce3fbd34a81245354428ef908c9bc\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{\"maintainer\":\"LouisLiu\"}},\"container_config\":{\"Hostname\":\"\",\"Domainname\":\"\",\"User\":\"\",\"AttachStdin\":false,\"AttachStdout\":false,\"AttachStderr\":false,\"Tty\":false,\"OpenStdin\":false,\"StdinOnce\":false,\"Env\":[\"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\"],\"Cmd\":[\"/bin/sh\",\"-c\",\"#(nop) ADD file:7eb71eebbfdc1d373b0e30c88a840eb83a46617cd5011917e99d9bb496ef6fd5 in / \"],\"Image\":\"sha256:8d357da4b1b085d42f4bde0b48c13c2a605ce3fbd34a81245354428ef908c9bc\",\"Volumes\":null,\"WorkingDir\":\"\",\"Entrypoint\":null,\"OnBuild\":null,\"Labels\":{\"maintainer\":\"LouisLiu\"}},\"created\":\"2023-07-20T01:51:11.200895495Z\",\"docker_version\":\"20.10.24\",\"id\":\"5bcc006471231845d2b2e6d05c32a4b8f57fcc2588b3ce003c82d6e96ff3cf2c\",\"os\":\"linux\",\"parent\":\"8d17c625b3aa4cca66a5e71b2b47998780083d8950894f33e7482d2e187bdc81\"}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"8d17c625b3aa4cca66a5e71b2b47998780083d8950894f33e7482d2e187bdc81\",\"parent\":\"0b28e844f913a4268cde3a57964d8abeed2aa553aa910342cdecd1fabe554725\",\"created\":\"2023-07-20T01:51:10.398657156Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) LABEL maintainer=LouisLiu\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"0b28e844f913a4268cde3a57964d8abeed2aa553aa910342cdecd1fabe554725\",\"parent\":\"9bafc02a2a5cf79ee87025155541453614fdfe65ea660f42ace95ff9a4451782\",\"created\":\"2023-07-18T23:19:33.655005962Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) CMD [\\\"sh\\\"]\"]},\"throwaway\":true}"
+        },
+        {
+            "v1Compatibility": "{\"id\":\"9bafc02a2a5cf79ee87025155541453614fdfe65ea660f42ace95ff9a4451782\",\"created\":\"2023-07-18T23:19:33.538571854Z\",\"container_config\":{\"Cmd\":[\"/bin/sh -c #(nop) ADD file:7e9002edaafd4e4579b65c8f0aaabde1aeb7fd3f8d95579f7fd3443cef785fd1 in / \"]}}"
+        }
+    ],
+    "signatures": [
+        {
+            "header": {
+                "jwk": {
+                    "crv": "P-256",
+                    "kid": "YUDT:VSQJ:CQ7A:EHQ7:NPJX:XJT6:NSOO:2IRU:BJXF:LII3:DPV6:NPYC",
+                    "kty": "EC",
+                    "x": "8ruitG11oY_A6aejHQ1DVnRxB1NBdGAIdCgFbHAOW5Q",
+                    "y": "g743w0lPn8BHCPTy9jgsfa3ZrIxMYZ5qUfSwEig4fOo"
+                },
+                "alg": "ES256"
+            },
+            "signature": "k7lFhxQCl_LCXgFY3WMW6hzObfPjuNP4qjuUTOe-Qlk1NvV6qcUVLyAOjTaHOi2TGrXbSPReaHNjEEMRo4LKlQ",
+            "protected": "eyJmb3JtYXRMZW5ndGgiOjMwMTIsImZvcm1hdFRhaWwiOiJDbjAiLCJ0aW1lIjoiMjAyMy0wNy0yOFQxMjoyNDozOVoifQ"
+        }
+    ]
+}
